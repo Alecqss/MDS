@@ -1,3 +1,9 @@
 body{
-	background-color: grey;
+	background-color: darkgrey;
+}
+
+#effets div{
+	background: black;
+	height: 100px;
+	margin: 2px;
 }
