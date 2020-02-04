@@ -6,4 +6,66 @@ body{
 	background: black;
 	height: 100px;
 	margin: 2px;
+	margin-bottom: 20px;
+	border-radius: 55px;
+}
+
+#test div{
+	background: darkcyan;
+	height: 100px;
+	margin: 2px;
+	margin-top: 20px;
+}
+
+#animate div{
+	background: indianred;
+	height: 100px;
+	margin: 2px;
+	margin-top: 20px;
+}
+
+.alerte{
+	color: red;
+}
+
+#maBoite{
+	background: indianred;
+	height: 100px;
+	margin: 2px;
+	margin-top: 20px;
+}
+
+.highlight{
+	background-color: gold;
+}
+
+.bordure{
+	border:10px solid black;
+}
+
+.grey{
+	background-color: grey !important;
+}
+
+#photos div img{
+	display: none;
+}
+
+#photos nav ul{
+	list-style: none;
+	padding: 0;
+}
+
+#photos nav li{
+	margin-bottom: 10px;
+}
+
+#photos nav li img{
+	max-width: 100%;
+	height: auto;
+	filter: grayscale(10);
+}
+
+#photos nav li img:hover{
+	filter: grayscale(0);
 }
