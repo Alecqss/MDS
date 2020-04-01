@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Alecqss</title>
+		<title>Partiel B1</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
@@ -9,10 +9,74 @@
         </script>
         <link href="css/style.css" rel="stylesheet">
 	</head>
-	<header>
-		<h1>Test</h1>
+	<header class="container">
+		<h1>Grille responsive</h1>
+		<button type="button" class="btn btn-secondary" id="boite-onglet">Boites</button>
+  		<button type="button" class="btn btn-secondary" id="video-onglet">Vidéos</button>
+  		<button type="button" class="btn btn-secondary" id="tableau-onglet">Tableau</button>
 	</header>
-	<body>
-		<script src="monjs.js"></script>
+	<body class="container-fluid">
+		
+
+		<section class="row"  id="boite">
+            <div>
+            	<img src="img/icon1.svg">
+            	<h1>Boite 1</h1>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div>
+            <img src="img/icon2.svg">
+            	<h1>Boite 2</h1>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div>
+            <img src="img/icon3.svg">
+            	<h1>Boite 3</h1>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </section>
+        <section class="row" id="video">
+        	<div class="col-lg-3 col-md-2">
+        		<img src="img/vdo1.png" id="vdo" data-id="https://www.youtube.com/embed/boW_XClqrrw">
+        		<img src="img/vdo2.png" id="vdo2" data-id="https://www.youtube.com/embed/SlCdYBQHgbg">
+        		<img src="img/vdo3.png" id="vdo3" data-id="https://www.youtube.com/embed/jRyaRXesJa4">
+        	</div>
+        	<div class="col-lg-9 col-md-10">
+        		<iframe class="embed-responsive-item" width="100%" height="100%" src="https://www.youtube.com/embed/SlCdYBQHgbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        	</div>
+        </section>
+        <section id="tableau">
+        	<table class="table table-dark">
+			  <thead>
+			    <tr>
+			      <th scope="col">#</th>
+			      <th scope="col">First</th>
+			      <th scope="col">Last</th>
+			      <th scope="col">Handle</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <th scope="row">1</th>
+			      <td>Mark</td>
+			      <td>Otto</td>
+			      <td>@mdo</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">2</th>
+			      <td>Jacob</td>
+			      <td>Thornton</td>
+			      <td>@fat</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">3</th>
+			      <td>Larry</td>
+			      <td>the Bird</td>
+			      <td>@twitter</td>
+			    </tr>
+			  </tbody>
+			</table>
+        </section>
+		<script src="partiel.js"></script>
 	</body>
 </html>

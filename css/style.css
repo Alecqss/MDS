@@ -1,2 +1,2 @@
-body{background-color:grey;color:white}body h1{color:gold}
+body{background-color:grey;color:white}body h1{color:gold}#nav{height:20px}#boite div{background-color:darkgrey;margin-left:10px;margin-top:10px;width:100%}#boite div img{height:75px;display:block;margin:auto;margin-top:10px}#boite div h1,#boite div p{text-align:center}@media (min-width: 768px) and (max-width: 991px){#boite div{width:calc(33.33% - 10px)}}@media (min-width: 992px){#boite div{width:calc(33.33% - 10px)}}#video{margin-top:30px}#video img{margin-top:5px}#tableau{position:relative;margin-top:30px}#loupe{position:absolute;right:5px;top:-90px;display:inline-block;background:#626262;border:1px solid #fff;font-size:4em;font-weight:700;padding:10px}
 /*# sourceMappingURL=style.css.map */
